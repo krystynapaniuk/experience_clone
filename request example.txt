@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cXML SYSTEM "http://xml.cxml.org/schemas/cXML/1.2.036/cXML.dtd">
+<cXML xml:lang="en-US" payloadID="1516971528608 - 7970280819410356411@216.109.111.69" timestamp="2018-01-26T04:58:49-08:00">
+<Header>
+<From>
+<Credential domain="NetworkID">
+<Identity>InnerTrack</Identity>
+</Credential>
+</From>
+<To>
+<Credential domain="NetworkID">
+<Identity>012345669</Identity>
+</Credential>
+</To>
+<Sender>
+<Credential domain="NetworkID">
+<Identity>InnerTrack</Identity>
+</Credential>
+<UserAgent>User Agent v1.1</UserAgent>
+</Sender>
+</Header>
+<Request>
+<OrderRequest>
+<OrderRequestHeader orderID="FM-111" uniqueStoreIdentifier="673">
+<Total>
+<Money currency="USD">500.00</Money>
+</Total>
+<ShipTo>
+<Address>
+<Name>Company 1</Name>
+<PostalAddress>
+<DeliverTo>Antony John</DeliverTo>
+<Street>Ave 2883</Street>
+<City>Orlando</City>
+<State>FL</State>
+<PostalCode>90489</PostalCode>
+<Country isoCountryCode="US">United States</Country>
+</PostalAddress>
+</Address>
+</ShipTo>
+<BillTo>
+<Address>
+<Name>Company 5</Name>
+<PostalAddress>
+<DeliverTo>Patty Smith</DeliverTo>
+<Street>Ave 410</Street>
+<City>Las Vegas</City>
+<State>Nevada</State>
+<PostalCode>90489</PostalCode>
+<Country isoCountryCode="US">United States</Country>
+</PostalAddress>
+</Address>
+</BillTo>
+<Shipping>
+<Money currency="USD">0</Money>
+<Description></Description>
+</Shipping>
+<Tax>
+<Money currency="USD">0.00</Money>
+</Tax>
+<Contact>
+<Name></Name>
+<Email/>
+<UserName>test1@test.com</UserName>
+</Contact>
+</OrderRequestHeader>
+<ItemOut quantity="10">
+<ItemID>
+<SupplierPartID>IN-1234-100000</SupplierPartID>
+</ItemID>
+<ItemDetails>
+<Description>Very good product 1</Description>
+<UnitPrice>
+<Money currency="USD">10</Money>
+</UnitPrice>
+<ManufacturerPartID>Item1_code</ManufacturerPartID>
+<ManufacturerName>Item1</ManufacturerName>
+<UnitOfMeasure>EA</UnitOfMeasure>
+<Extrinsic name="PackSize">10</Extrinsic>
+</ItemDetails>
+
+</ItemOut>
+</OrderRequest>
+</Request>
+</cXML>
